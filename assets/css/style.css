@@ -1,11 +1,11 @@
 .layout{
-height: 400px;
+  height: 400px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: 2fr 6fr 1fr;
   grid-gap:10px;
   grid-template-areas: "header-area header-area header-area header-area" "sidebar-area main-area main-area main-area " "footer-area footer-area footer-area footer-area";
-background-color: beige;
+  background-color: beige;
 }
 
 
@@ -14,7 +14,6 @@ background-color: beige;
     grid-area: header-area;
     align-items: center;
     text-align: center; 
-    
 }
 
 .text{
@@ -30,10 +29,7 @@ background-color: beige;
     padding-left: 0;
     color: white;
     justify-content: center;
-   
-    padding-right: 40px;
-    
-   
+    padding-right: 40px; 
 }
 
 .layout-main{
@@ -43,9 +39,7 @@ background-color: beige;
     padding: 30px;
     grid-area: main-area;
     background-color: beige;
-    padding-bottom: 50px;
-    
-  
+    padding-bottom: 50px; 
 }
 
 .section-main{
@@ -69,15 +63,11 @@ background-color: beige;
 
 .botton-compras{
     background-color: purple;
-    color: white
-    padding: 20px;
-    
-  
-    
+    color: white;
+    padding: 20px;   
 }
 
 .books{
     width: 200px;
-    height: 200px;
-    
+    height: 200px;  
 }
