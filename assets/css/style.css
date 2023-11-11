@@ -1,17 +1,24 @@
 .layout{
- 
-  height: 600px;
+height: 400px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: 2fr 6fr 1fr;
   grid-gap:10px;
-  grid-template-areas: "header-area header-area header-area header-area" "sidebar-area main-area main-area main-area" "footer-area footer-area footer-area footer-area";
+  grid-template-areas: "header-area header-area header-area header-area" "sidebar-area main-area main-area main-area " "footer-area footer-area footer-area footer-area";
+background-color: beige;
 }
 
+
 .layout-header{
-    background-color: blueviolet;
-    grid-area:header-area;
+    background-color: orange;
+    grid-area: header-area;
     align-items: center;
+    text-align: center; 
+    
+}
+
+.text{
+    color: white;
 }
 
 .layout-sidebar{
@@ -23,7 +30,9 @@
     padding-left: 0;
     color: white;
     justify-content: center;
-    margin-bottom: 0px;
+   
+    padding-right: 40px;
+    
    
 }
 
@@ -31,24 +40,44 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 20px;
+    padding: 30px;
     grid-area: main-area;
     background-color: beige;
+    padding-bottom: 50px;
+    
+  
 }
 
 .section-main{
+    display: row;
     background-color: blueviolet;
-    color: orange;
+    color: white;
     margin-right: 20px;
     padding: 20px;
-    margin-right: 0px;
     justify-content: center;
     text-align: center;
+    padding-bottom: 0px;
 }
 
 .layout-footer{
-    background-color: blue;
+    background-color:skyblue;
     grid-area: footer-area;
     text-align: center;
     color: white;
+    padding: 20px
+}
+
+.botton-compras{
+    background-color: purple;
+    color: white
+    padding: 20px;
+    
+  
+    
+}
+
+.books{
+    width: 200px;
+    height: 200px;
+    
 }
